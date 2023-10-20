@@ -1,0 +1,80 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and style for the body */
+  body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Center the content */
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #0073e6; /* SBI blue color */
+  }
+  
+  /* Style the form container */
+  #registrationForm {
+    max-width: 700px; /* Increase the max-width to make the box wider */
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+     /* Center items horizontally */
+  }
+  
+  /* Style form labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #0073e6; /* SBI blue color */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005bbf; /* Darker blue on hover */
+  }
+  
+  /* Style the result div */
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #0073e6; /* SBI blue color */
+  }
+  
+  /* Style only the REGISTER button */
+  button#registerButton {
+    padding: 8px 16px; /* Smaller padding for a smaller button */
+    font-size: 16px; /* Smaller font size */
+  }
+  
