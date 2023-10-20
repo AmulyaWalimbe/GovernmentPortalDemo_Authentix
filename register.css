@@ -1,0 +1,106 @@
+/* Reset default margin and padding */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color for the body */
+body {
+    background-color: #eeeefb;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+}
+
+/* Center-align the h1 element */
+h1 {
+    text-align: center;
+}
+
+/* Style the form container */
+form {
+    background-color: #add3f9;
+    border: 1px solid #ccc6fd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #abbcfb;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #4708e7;
+    color: #121111;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0f7bee;
+}
+
+/* Style the result div */
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #c8c8fb;
+    border: 1px solid #c6d8f7;
+    border-radius: 3px;
+}
+
+/* Style any additional elements as needed */
+
+/* Add styles for form labels and inputs */
+label {
+    font-weight: bold;
+}
+
+/* Style form inputs */
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #041930;
+    color: #6293f5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #b9d7f9;
+}
+
+/* Style the result div */
+/*#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}*/
